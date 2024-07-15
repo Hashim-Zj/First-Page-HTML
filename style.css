@@ -1,0 +1,59 @@
+body {
+  background-image: url("./designers-desk-with-coffee-wireframes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  margin-top: 13%;
+  margin-left: 65%;
+  padding: 30px 20px;
+  background-color: black;
+  opacity: 0.5;
+  width: 400px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+}
+.row-cont {
+  position: absolute;
+  top: 60%;
+  display: flex;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(208, 210, 212, 0.864);
+}
+.welcom-cont {
+  margin-left: 16%;
+  margin-top: 80px;
+  font-size: large;
+  padding: 20px;
+}
+.welcom-cont h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.welcom-cont>p{
+  font-size: larger;
+}
+.welcom-cont > p > span {
+  color: rgb(31, 31, 194);
+  font-style: italic;
+}
+.contact-cont {
+  margin-left: 150px;
+  height: 100%;
+  background-color: rgba(204, 64, 14, 0.737);
+  font-size: large;
+  padding: 50px;
+  text-align: center;
+  color:white
+}
+.contact-cont > div > span {
+  font-size: xx-large;
+  font-weight: 800;
+}
+.contact-cont>p{
+  margin-top: 50px;
+  font-size: larger;
+}
